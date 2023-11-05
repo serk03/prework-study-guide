@@ -9,10 +9,248 @@
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img
+        src="./assets/bowtie-cat.png"
+        alt="Profile image of cat wearing a bow tie."
+      />
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <h3>Information about HTML</h3>
+        <ul>
+          <li>Enter your HTML notes here</li>
+          <li>Hypertext Markup Language (HTML) is one of the three cornerstone languages used in web development</li>
+          <li> HTML is used to create the structure of a webpage.</li>
+          <li>It is made up of elements which work together to provide content and the basic framework for all pages on the web.</li>
+          <li>An element is a type of content on a webpage. The following element types are commonly used to add content to pages:
+            <ul>
+              <li>Text elements</li>
+              <li>Image elements</li>
+              <li>Header elements</li>
+              <li>List elements</li>
+            </ul>
+            <li>In addition to elements that can be seen on the page, elements are also used to divide the content on the page and to describe the content to browsers and other developers.</li>
+            <!-- <br></br> -->
+             <p>Here are some common element types that are used to divide and describe a page:</p>
+            <ul>
+              <li>Meta-related element</li>
+              <li>Content division elements</li>
+              <li>Semantic elements</li>
+            </ul>
+          </li>
+          <li>HTML elements work together to build the structure of a webpage and provide a framework that makes it easy for a user to navigate the webpage.</li>
+          <li>When we build a website, we build it step-by-step in much the same way as you build a house. First, we use HTML to build a sturdy frame, using HTML elements as our frame’s building blocks</li>
+          <li>When we create the structure for our webpage, we use a series of HTML elements to define the content and framework.</li>
+          <li>HTML elements are usually composed of an opening tag and a closing tag represented with angle brackets ("< >")</li>
+          <li>These tags contain everything that we want to include in the element. This can include content and even other nested elements.</li>
+          <li> However, two elements are especially important to understanding how the structure works: the "head" and "body" elements.</li>
+          <ul>
+            <li>The <strong>"head"</strong>  element contains information, or metadata, that helps the browser to render the page correctly. Elements included within the <head> are not visible when a user looks at a webpage.</li>
+              <ul>
+                
+                </ul>
+                <ul>
+                
+              </ul>
+              </li>
+            
+              <li>The <strong>"body"</strong>  element contains the content that is shown to the user. All the elements that we want the user to see and interact with must be placed inside this element.</li>
+              
+          </ul>
+          
+          <h2>The structure of a html document/ webpage</h2>
+          <h3>!DOCTYPE</h3>
+          <li>At the very top, we see the <strong>"!DOCTYPE html" </strong> declaration. This declaration tells the browser what document type it should expect when it is opened. This particular "!DOCTYPE html" declaration is letting the browser know to expect HTML on the page.
+          </li>
+          
+            <ul>
+              <li> <strong>"!DOCTYPE" </strong> is not case-sensitive because it is a declaration. Declarations are not case-sensitive; HTML elements are case-sensitive.</li>
+            </ul>
+           
+          
+            <li> Next, we see the the "html" opening tag, which represents the root, or start, of our HTML document. </li>
+            <ul>
+              <li>Inside the "html" tag is an attribute of lang="en", which tells the browser the language for the webpage, in this case it is "English"</li>
+              <li>HTML attributes are always defined in the beginning element, never the closing element.</li>
+            </ul>
+            <h3>The Head Element</h3>
+            <li>
+               
+              <ul>
+                <li>The <strong>"head"</strong> element contains the metadata for our web application.</li>
+                <li>Metadata is data about our webpage that the browser uses to effectively serve our webpage to users.</li>
+                <li>Metadata is typically not seen by users, but it contains important information about accessibility, search engines, and performance.</li>
+                <li>These elements that provide important information about a website to the browser, search engines, and other developers.</li>
+                <li>Elements nested in the <strong>"head"</strong>  element, we can use the following metadata tags:</li>
+              
+                <ul>
+                  <li>The "title" element defines the title for a webpage. This element is required and is extremely important for Search Engine Optimization (SEO).</li>
+                  <li><i>Search engine optimization (SEO) is the process of improving the ranking of a website in search engines such as Google or Bing. Better SEO results in your website more frequently showing up in searches.</i>
+                   
+                      <li>The "head" element in this case defines the following three elements:</li>
+                    <ul>
+                      <li>The charset element sets our character encoding.</li>
+                      <li>The http-equiv element sets an HTTP header for content.</li>
+                      <li>The viewport element sets the default view for our webpage.</li>
+                      <li>Finally, the "title" of the webpage is defined.</li>
+                    </ul>
+                </ul>
+
+                <li>Other head tags</li>
+                <ul>
+                  </li>
+                  <li>The "style" element defines the CSS styles associated with a website.</li>
+                  <li>The "base" element defines the base URL for a webpage.</li>
+                  <li>The "link" element connects an external resource to the HTML document.</li>
+                  <li>The "meta" element defines metadata such as the character set, description, keywords, author, and viewport.</li>
+                  <li>To learn more about other types of information that can be stored in the meta tag, visit the <a href="https://www.w3schools.com/tags/tag_meta.asp">W3School page on the HTML meta tag</a></li>
+                  <li>The "script" element embeds client-side scripts in the HTML document.</li>
+                </ul>
+              </ul>
+            </li> 
+          <h3>The Body Element</h3>
+          <ul>
+            <li>The body of an HTML document, includes the content that users see when they look at the webpage in a browser.</li>
+            <li>
+              <ul>
+              <li><i>Elements that are nested inside other elements are called child elements. </i></li>
+              <li><i>The element that holds all the children—in this case, the <strong>"body"</strong> element—is known as the strong>"parent"</strong>element.  </i></li>
+              <li>This <strong>“parent/child”</strong> language is often used by developers to explain the relationship among elements in HTML.</li>
+            </ul>
+            </li>
+            <li> In the last section the only part that the user could see was the content in the "title" element</li>
+            <li>The "body" element defines the body of the document, which contains the content that is visible to the user. All of the content that we want to display to users must be inside the "body" element.</li>
+            <ul>
+              <li>The "body" element is an example of a semantic HTML element.</li>
+              <li>In semantic HTML elements, the name of the element describes its content and the role it plays on a webpage.</li>
+              <ul>
+                <li>When possible, it is important to use semantic HTML elements, because they make your HTML easier to read by other developers and the browser.</li>
+                <li>Semantic HTML also plays an important role in making sure your webpage is accessible to the widest variety of users, including those who use assistive technologies such as screen readers.</li>
+                <li>Not all elements are semantic, though. It is still common to see non-semantic elements such as "div" to create a division in the page, or "span" to create an inline division</li>
+                <li> Sometimes these are simply the most efficient solution to a structural problem the developer is trying to solve. The most important thing to keep in mind is that it is best practice to use semantic elements whenever possible, especially when the content is visible to users.</li>
+              </ul>
+            </ul>
+            <li>When working with visible HTML elements, the content is contained between an opening tag and a closing tag.</li>
+            <li>These tags are most often represented by angle brackets with associated tag names contained inside</li>
+            <ul>
+              <li>Closing tags begin with a forward slash </li>
+              <li> We insert the content between an opening tag and a closing tag so that the browser understands how to treat the content.</li>
+            </ul>
+            <h4>Important Information</h4>
+            <ul>
+              <li>The words “element” and “tag” are commonly used interchangeably in the web development world, but it is important to know the difference. </li>
+              <li>An element refers to the entire element from opening tag to closing tag, whereas a tag refers only to what appears inside the angle brackets.</li>
+            </ul>
+            <h4>Headings Element</h4>
+            <ul>
+              <li>The h1, h2, h3, h4, h5, and h6 elements represent the level of heading a given text block represents.</li>
+              <li>Headings are exactly what they sound like: larger or more prominent titles and subtitles to organize a page.</li>
+            </ul>
+            <h4>Paragraph Element</h4>
+            <ul>
+              <li>Paragraph element represents a paragraph or block of text.</li>
+              <li>You'll use this element extensively to wrap most of the text on your webpages.</li>
+            </ul>
+            <h4>Unordered/ Ordered List Elements</h4>
+            <ul>
+              <li>ul - element represent unordered lists, will display information as a normal bullet point</li>
+              <li>ol - element represent ordered lists, will display information as a numbered bullet point </li>
+              <li>li - element represent the list element must be wrapped by the ul/ol element</li>
+            </ul>
+            <h4>Image Element</h4>
+            <ul>
+              <li>The "img" element contains information about images that are displayed on the webpage.</li>
+              <li>The "img" element can contain various attributes:</li>
+              <ul>
+                <li> The src attribute is the most important because it defines the location of the image</li>
+                <li>The "alt" attribute contains a text string that describes the appearance and functionality of the image.
+              </ul>
+            </ul>
+            <h4>Break Line Element</h4>
+            <ul>
+              <li>
+                The "br" element creates a line of empty space, or a line break, between two blocks of content.
+              </li>
+            </ul>
+            <h4>Anchor Tag Element</h4>
+            <ul>
+              <li>The "a" element (which stands for anchor) creates links to the same webpage or other webpages.</li>
+              <li>The href attribute points to the URL for the link</li>
+              
+              </li>
+            </ul>
+            <h4>Important Information</h4>
+            <ul>
+              <li>Order matters! When using headings, it is important that we use heading tags in order from "h1" to "h6" to make the page accessible to users who access the page using screen readers or other devices. In addition, the biggest heading,"h1", should only appear once on each page.</li>
+            </ul>
+
+            <h4>Section Element</h4>
+            <p>The "section" elements allow us to elegantly organize the content on our page based on the topics we have.</p>
+          </ul>
+          <h4>Important Information</h4>
+          <p>We can see that each section element has an id attribute that also matches one of the four topics.</p>
+          <ul>
+            <li>HTML uses the "id" attribute as a way to identify elements and select them.</li>
+            <ul>
+              <li>This will make more sense once we start using CSS and JavaScript.</li>
+              <li>You may have noticed the "class" attribute as well. For now, all you need to know is that this works in a similar way to the "id". We will learn more about the class attribute later.</li>
+            </ul>
+            <p>Developers test code early and often to catch bugs. Sometimes testing can be as simple as looking for changes in the browser, like we are doing here, to see if the webpage is rendering as expected.</p>
+          </ul>
+          
+        </ul>
+       
+      </section>
+
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>Enter your CSS notes here</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>Enter your Git notes here</li>
+          <li>Git is a version control system that lets you manage and keep track of each version of your project.
+            <li>Git is the most commonly used version control software among developers and a tool that you will likely use on the job.</li>
+            
+              <li>To access Git, we use the command line.</li>
+              <li>Git commands are not the same as the bash commands such as cd and mkdir that we use to navigate and create directories or perform other tasks. </li>
+              <li>Git commands always start with git and are used to save and track versions of your code. </li>
+              <li>Using Git commands, we can initiate (or create) a repo, add our code to the repo, and view the different versions of our code, which are each stored in a unique commit.</li>
+              <li>Git is great for tracking changes locally on your own computer, but to collaborate with others, you need to use another tool, GitHub.</li>
+          
+           
+            </li>
+          <h3>Git Commands</h3>
+          <li>Git clone “ssh value” – this will clone the repository to your local machine.</li>
+          <li>git status: checks what branch we are currently on</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git add -A: adds modification in the current working branch to the staging area, informs Git that the changes will added in the next commit</li>
+          <li>git commit -m "add starter code": allow you to enter commit message that describes what the commit contains </li>
+          <li>git pull origin main: checks to see if the local branch is in sync with base branch</li>
+          <li>git push origin feature/starter-code: pushes the changes we have locally to our remote GitHub branch.</li>
+
+          <li>Other git commands:</li>
+          <ul>
+            <li>git revert "SHA value": reverts the to previous version of code prior to bug or error </li>
+          </ul>
+          
+
+          <li>For informaiton on git commands refer to: <a href="Git Command Cheat SheetLinks to an external site.">Git Command Cheat SheetLinks to an external site.</a> </li>
+          <li>For more information on Github watch: <a href="https://digital.gov/resources/an-introduction-github/">Introduction to GitHub</a></li>
+        </ul>
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>Enter your JavaScript notes here</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
