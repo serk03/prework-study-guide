@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -32,7 +33,7 @@
             </ul>
             <li>In addition to elements that can be seen on the page, elements are also used to divide the content on the page and to describe the content to browsers and other developers.</li>
             <!-- <br></br> -->
-             <p>Here are some common element types that are used to divide and describe a page:</p>
+             <li>Here are some common element types that are used to divide and describe a page:</li>
             <ul>
               <li>Meta-related element</li>
               <li>Content division elements</li>
@@ -186,17 +187,17 @@
             </ul>
 
             <h4>Section Element</h4>
-            <p>The "section" elements allow us to elegantly organize the content on our page based on the topics we have.</p>
+            <li>The "section" elements allow us to elegantly organize the content on our page based on the topics we have.</li>
           </ul>
           <h4>Important Information</h4>
-          <p>We can see that each section element has an id attribute that also matches one of the four topics.</p>
+          <li>We can see that each section element has an id attribute that also matches one of the four topics.</li>
           <ul>
             <li>HTML uses the "id" attribute as a way to identify elements and select them.</li>
             <ul>
               <li>This will make more sense once we start using CSS and JavaScript.</li>
               <li>You may have noticed the "class" attribute as well. For now, all you need to know is that this works in a similar way to the "id". We will learn more about the class attribute later.</li>
             </ul>
-            <p>Developers test code early and often to catch bugs. Sometimes testing can be as simple as looking for changes in the browser, like we are doing here, to see if the webpage is rendering as expected.</p>
+            <li>Developers test code early and often to catch bugs. Sometimes testing can be as simple as looking for changes in the browser, like we are doing here, to see if the webpage is rendering as expected.</li>
           </ul>
           
         </ul>
@@ -207,7 +208,114 @@
         <h2>CSS</h2>
         <ul>
           <li>Enter your CSS notes here</li>
+          <li>Cascading Style Sheets (CSS), which is a programming language used by developers to define how webpage content is presented to users.</li>
+          <ul>
+            <li>CSS defines the colors, aesthetics, visual layout, and organization. We use CSS to define style rules for specific elements of an HTML page and format them using a wide range of style options.</li>
+          </ul>
+          <br>
+          <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
+          <ul>
+            <li>•	Inline CSS.</li>
+            <ul>
+              <li>When a developer wants to style an element directly in the HTML file, they use inline CSS. </li>
+              <li>Inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only.</li>
+              <li>They’re useful for quick and permanent changes but are less flexible than external and internal style sheets, because each inline style must be edited individually whenever you make a design change.</li>
+            </ul>
+            <li>•	Internal CSS</li>
+            <ul>
+              <li>Contains CSS rules for the webpage in the head section of the HTML file.</li>
+              <li>The rules only apply to that page, and you can configure CSS classes and IDs, which are used to identify elements, to style multiple elements in the page code.</li>
+              <li>Again, a single change to the CSS rule will apply to all tagged page elements.</li>
+            </ul>
+            <li>External CSS</li>
+            <ul>
+              <li>This is preferred in most cases because it allows developers to keep all their CSS rules in a separate file, which makes design changes easier.</li>
+              <li>When using an external style sheet, we link the file using a link element placed in the HTML's head</li>
+            </ul>
+          </ul>
+          <br>
+          <li>Inline CSS and internal style sheets are totally acceptable methods under certain conditions, but the most common way to style a webpage is by using an external CSS style sheet.</li>
+          <br>
+          <li>Separation of concerns is a widely used term in web development and refers to separating code into different files based on use. It is one of the key design principles that we practice in the boot camp. Separation of concerns is based on the idea that each section of code should have its own responsibility.</li>
+          <ul>
+            <li>To learn more about this principle, visit the Wikipedia article about separation of concerns <a href="https://en.wikipedia.org/wiki/Separation_of_concerns">Separation of concerns</a></li>
+          </ul>
+          <br>
+          <h4>CSS Rules:</h4>
+          <li>A selector defines the element or attributes to which the rules, or declarations, will apply.</li>
+          <li>Declarations contain two important components: the CSS property we want to apply and the value of the property.</li>
+          <br>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <ul>
+            <li>A margin property indicates how much space we want around the outside of an element. </li>
+            <li>The margin is not visible on the page; it merely adds a buffer.</li>
+          </ul>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <ul>
+            <li>The padding property adds space around the content inside an element.</li>
+            <li>When you increase padding, you are actually making the entire element bigger!</li>
+            <li>That is because the padding, while transparent, is located inside the element, whereas the margin is the transparent buffer outside an element.</li>
+          </ul>
+          <li>Height - sets the height of an element, must use the px,%, em or rem</li>
+          <li>Width- sets the width of an element, must use the px,%, em or rem</li>
+          <li>Border – set a border around the element, must use the px,%, em or rem and set the color</li>
+          <li>Box-shadow – set a shadow around the element, must use the px,%, em or rem and set the color</li>
+          <br>
+          <li>Assigning colours in CSS can be done in many ways, including by semantic references such as gray or blue. We can also refer to a color by its hexadecimal code, or hex #.</li>
+          <ul>
+            <li>To find out more information on HTML Colours refer to the following: <a href="https://htmlcolorcodes.com/">html colour codes</a></li>
+            <li>Take a look at the MDN Web Docs on CSSLinks to an external site. to see what other properties and values there are to try. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN web docs properties and values</a></li>
+          </ul>
+          <br>
+          <h4>CSS Box Model:</h4>
+          <li>To understand this better, it is important to know that every HTML element is essentially a box.</li>
+          <li>Each box consists of margins outside the element, and the element's borders, padding, and content.</li>
+          <li>This is sometimes referred to as the CSS box model.</li>
+          <ul>
+            <li>Refer to documentation for more information on box model: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">CSS Box Model</a></li>
+          </ul>
+          <br>
+          <h4>CSS Properties:</h4>
+          <li>* - Sometimes, we want to apply a rule to all the elements visible on the page. </li>
+          <ul>
+            <li>To do that, we use a special wild card symbol, or *.</li>
+            <li>In this rule, we have declared that ALL of the elements on the page will have the style properties</li>
+          </ul>
+          <li>img - selector assigns property values to any image element in the markup.</li>
+          <li>Display - The display property is assigned with the block value, which assigns each image to start on a new line.</li>
+          <li>Class attribute- Class attributes allow us to share a CSS rule to any element we choose by assigning the rule to a class attribute with a class selector.</li>
+          <ul>
+            <li>Then the class attribute can be assigned to the element in the HTML, enabling us to freely choose which elements will be assigned the CSS rule.</li>
+            <li>Represent by using the “.” In css followed by the class name.</li>
+          </ul>
+          <br>
+          <li>We can combined two selectors into a single CSS rule with a comma, allowing the declarations to affect both selectors.</li>
+          <ul>
+            <li>e.g. header, footer{}</li>
+          </ul>
+          <br>
+          <h4>Do Not Repeat Yourself (DRY)</h4>
+          <li>Rather than repeating a rule which would add more lines of code and repetition, two or more elements that will share the same styling can be grouped together.</li>
+          <li>This helps us write Do Not Repeat Yourself (DRY) code.</li>
+          <li>Do Not Repeat Yourself (DRY) is a coding principle that encourages developers to reuse or share pieces of code in order to reduce the number of lines of code that need to be written or maintained. </li>
+          <ul>
+            <li>DRY can greatly reduce the overall size and complexity of a codebase.</li>
+          </ul>
+          <br>
+          <h4>Linking CSS to HTML:</h4>
+          <li>Notice the <head> section, and recall that this is where we store metadata, which contains information about the webpage. This is where we will add the link to our style sheet.</li>
+            <ul>
+              <li>link rel="stylesheet" href="./assets/style.css</li>
+              <li>In the preceding statement, a link element creates the connection to the external file.</li>
+              <li>The rel attribute specifies the relationship between the current document and the linked document resource.</li>
+              <li>The href attribute specifies the location (URL) of the external resource. The href attribute is using a relative path.</li>
+              <ul>
+                <li>This means the location is derived from the current location (in this case, index.html).</li>
+                <li>To locate the style sheet from the current location, we must look in the assets folder, hence assets/style.css.</li>
+              </ul>
+            </ul>
         </ul>
+        <br>
       </section>
    
       <section class="card" id="git-section">
