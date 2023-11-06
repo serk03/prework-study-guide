@@ -358,6 +358,172 @@
         <h2>JavaScript</h2>
         <ul>
           <li>Enter your JavaScript notes here</li>
+          <li>JavaScript (JS) is a high-level dynamic programming language that allows users to interact with websites.</li>
+            <li>Using JavaScript, you can power your websites with effects, interactivity, data communication, and much more.</li>
+            <li>JavaScript is a critical tool in every web developer's tool kit. You'll spend a little over half of your time in the boot camp on it, so let's begin our introduction now.</li>
+            <li>In web development, JavaScript is the tool that takes a static HTML/CSS webpage and makes it interactive. Every time you do something with a webpage, such as click a button, retrieve data, or fill out a form, JavaScript is at work!</li>
+            <br>
+            <li>JavaScript is written externally in a script.js file</li>
+            <ul>
+              <li>Insert the script tag just before the bottom body tag</li>
+            </ul>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <ul>
+            <li>Declaring varibles using the following key words</li>
+            <ul>
+              <li>var</li>
+              <li>const</li>
+              <li>let</li>
+            </ul>
+          </ul>
+              <ul>
+                <br>
+                <li>Variable Types:</li>
+                  <ul>
+                    <li>Strings - This is a sequence of text known as a string. To signify that the value is a string, enclose it in single or double quote marks.</li>
+                    <li>Number - This is a number. Numbers don't have quotes around them.</li>
+                    <li>Boolean - This is a True/False value. The words true and false are special keywords that don't need quote marks.</li>
+                    <li>Arrays - This is a structure that allows you to store multiple values in a single reference.</li>
+                    <ul>
+                      <li>An array is a single variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way.</li>
+                      <li>To create an array, we declare a variable in the same way that we declared a variable with only one data item. That is, we use var and then give the variable a name.</li>
+                      <ul>
+                        <li>e.g. var shapes = ["triangle", "square", "pentagon", "circle"];</li>
+                      </ul>
+                        <li>Being able to store a group of data in an array is a fundamental feature of JavaScript. Arrays are especially useful when we want to perform a task on multiple pieces of data at once.</li>
+                        <li>Arrays are not limited to contain only a single type of data.</li>
+                        <li>A single array can store different types of data, such as strings, numbers, and so on.</li>
+                        <li>Arrays have a unique number built inside of them to identify the data.</li>
+                        <ul>
+                          <li>This is know as an Index</li>
+                          <li>Index's start from 0</li>
+                          <li> The indices, or location identifiers, will always be whole numbers that increase by 1 each time.</li>
+                          <li>To find out what data is in the array, use the array name followed by the index number e.g. shapes[0]</li>
+                        </ul>
+                    </ul>
+                    <li>Object - This can be anything. Everything in JavaScript is an object and can be stored in a variable. Keep this in mind as you learn.</li>
+                  </ul>
+                  <li>Variables are necessary to do anything interesting in programming.</li>
+              </ul>
+              <br>
+            <li>Comments are snippets of text that can be added along with code. </li>
+            <ul>
+              <li>The browser ignores text marked as comments. You can write comments in JavaScript just as you can in CSS.</li>
+              <ul>
+                <li>*/*/ - used for multi line comments</li>
+                <li>// - for single line comments</li>
+              </ul>
+            </ul>  
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <ul>
+            <li>In JavaScript, code runs from the first statement at the top of the page, down to the last statement at the bottom of the page.</li>
+            <li> This means that we must be intentional about how we set up code in a JS file; we can’t just throw it all in there any which way!</li>
+            <li>Control flow can be interrupted, however. We can use conditional statements and loops to control the order in which code is executed, or if it is even executed at all.</li>
+            <ul>
+              <li>Types of Conditionals:</li>
+              <ul>
+                <li>If-Statements</li>
+                <ul>
+                  <li>An if statement is a way of introducing decision-making into our code.</li>
+                  <li>Just like its name sounds, when using the if statement, code will only execute if the statement meets a condition, or is true.</li>
+                </ul>
+                <li>else if statements</li>
+                <ul>
+                  <li>Sometimes we want to provide more conditions than just if. In JavaScript, we can have more than one condition</li>
+                </ul>
+                <li>Loops - for loops, while loops</li>
+                <ul>
+                  <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.</li>
+                  <li>Developers must use another statement, such as the conditional if statement that we just learned, to interrupt the control flow by executing a block of code a specific number of times.</li>
+                </ul>
+                <ul>
+                  <li>requirements for using loops:</li>
+                    <ul>
+                      <li>length of the array - use built in property "length"</li>
+                      <li>starting point for loop, use x=0;</li>
+                      <li>condition - "x"<"shapes.length;"</li>
+                      <li>x++ - The final statement is what allows the array to iterate over each item.</li>
+                      <li>e.g. of for loop
+                        <br>
+                        for(var x = 0; x < shapes.length; x++) {
+                          <br>
+                          // code block
+                          <br>
+                         }
+                      </li>
+
+                    </ul>
+                  </ul>
+              </ul>
+              Truth and Falsy:
+              <ul>
+                <li>When the computer encounters an if statement in a JavaScript file, it will check to see if the condition that we provide is truthy.</li>
+                <li>If it is, then it will do whatever action we ask it to do in between the curly brackets.</li>
+                <li>If the condition isn’t true or has a value that isn’t truthy, then the computer will ignore whatever is in between the curly brackets and move on.</li>
+                <li>Fasly values:</li>
+                <ul>
+                  <li> A value is considered falsy if it is one of the following values: 0, -0, On, "", null, undefined, NaN, or a Boolean data type with the value of false</li>
+                </ul>
+                <li>All other values, including a Boolean with the value of true, are considered truthy.</li>
+                <ul>
+                  <li>To learn more about truthy and falsy values, visit the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Truthy">MDN Web Docs on truthy</a></li>
+                </ul>
+              </ul>
+            </ul>
+          </ul>
+          <br>
+          <li>Operators:</li>
+          <ul>
+            <li>An operator is a mathematical symbol that produces a result based on two values (or variables).</li>
+            <ul>
+              <h4>Types of Operators:</h4>
+              <ul>
+                <li>Addition - Add two numbers together or combine two strings.</li>
+                <li>Subtraction, multiplication, division - These do what you'd expect them to do in basic math.</li>
+                <li>Assignment - As you've seen already: this assigns a value to a variable.</li>
+                <ul>
+                  <li>= - assigns value to variable</li>
+                  <li>== - comparison operator, not strict</li>
+                  <li>=== - comparison operator, strict</li>
+                </ul>
+                <li>Strict Equality - This performs a test to see if two values are equal and of the same data type. It returns a true/false (Boolean) result.</li>
+                <li>Not, Does-Not-equal - This returns the logically opposite value of what it precedes. It turns a true into a false, etc.. When it is used alongside the Equality operator, the negation operator tests whether two values are not equal.</li>
+              </ul>
+              <li>There are a lot more operators to explore, but this is enough for now. See Expressions and operators for a complete list.</li>
+            </ul>
+          </ul>
+          <h3>Functions:</h3>
+          <br>
+          <li>Are a way of packaging functionality that you wish to reuse. It's possible to define a body of code as a function that executes when you call the function name in your code.</li>
+          <li>At the most basic level, a function is simply a set of instructions that tells the computer how to perform a certain task.</li>
+          <li>A function is different from a for loop or conditional statement because functions do not automatically execute</li>
+          <li>This is a good alternative to repeatedly writing the same code.</li>
+          <li>Instead, you must call a function by name in order to execute it. While that may seem like extra work, having a block of code that executes only when we call it makes the code more easily reusable, because we can call it as many times as we need.</li>
+        
+          <ul>
+          <li>example of function:</li>
+          <ul>
+            <li>
+              function helloWorld() {
+                <br>
+                // code block
+                <br>
+               }
+            </li>
+            <li>The code to be executed is written inside the curly brackets </li>
+            <li>Remember to include the empty parentheses after the function name.</li>
+            <li>Note that it is common practice to indent the for loop code below the function name, within the curly brackets, to add visual structure to your code</li>
+          </ul>
+          <li>You can wrap functions around code to make it more useful.</li>
+          <li>In our examples we wrapped the if-statments/ else if statements and the loop in seperate functions</li>
+        </ul>
+        <br>
+          <h4>Calling a function</h4>
+          <li>Being able to call a function to execute it also means you can control where in the control flow a task is executed, or if it is executed at all.</li>
+          <li>If you see something which looks like a variable name, but it's followed by parentheses— () —it is likely a function. Functions often take arguments: bits of data they need to do their job.</li>
+          <li>Arguments go inside the parentheses, separated by commas if there is more than one argument.</li>
+          <li>The return statement tells the browser to return the result variable out of the function so it is available to use.</li>
+          <li>This is necessary because variables defined inside functions are only available inside those functions.</li>
         </ul>
       </section>
     </main>
